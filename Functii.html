@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 3px solid #555;
+	
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    text-decoration: none;
+	line-height: 7;
+    text-align: center;
+    border-bottom: 3px solid #555;
+	
+}
+
+li a.acasa:hover {li {background: lightblue url("giphy 2.gif") no-repeat center;}
+}
+
+
+li a.blue:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy 2.gif") no-repeat center;
+}
+li a.red:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy.gif") no-repeat center;
+
+}
+
+
+.yellow {color: #FFFF99;}
+.red {color:	#A52A2A;}
+.blue 	{color: #00CED1;}
+.purple {color: #DDA0DD;}
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 67px 278.5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 71%;
+}
+
+h2{ text-align:center;
+	margin-top: -100px;
+	color: white;
+	margin-left: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 10px;
+	}
+h4 { text-align: center;
+	 margin-top: 50px;
+	 color:white;
+	 margin-left: 200px;
+	}
+	body{
+  background: #000;
+} 
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .1;}
+}
+p{color: lime;
+  font-family: "Courier";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 64em;
+  animation: type 2s steps(60, end); 
+  margin-left:300px;
+  white-space: pre;
+  color: white;
+  font-weight: 300%;
+  line-height: 1;
+  margin-top: 100px;
+  margin-right: -150px;
+  white-space: pre;
+}
+
+p:nth-child(1){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(2){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(3){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(4){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(5){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(6){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(7){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(8){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(9){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(10){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(11){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(12){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(13){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(14){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(15){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(16){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(17){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(18){
+  animation: type2 5s steps(60, end);
+}
+p:nth-child(19){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(20){
+  animation: type2 5s steps(60, end);
+}
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+
+
+body {
+	background: black;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	}
+	i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+</style>
+</head>
+<body>
+
+<ul>
+<b>
+  <li><a  class="acasa" href="pagina intrare.html" >Acasa</a></li>
+  <li><a  href="def sir.html">Definitie</a></li>
+  <li><a href="citire afisare.html">Citire si afisare</a></li>
+  <li><a href="functii.html">Functii</a></li>
+  <li><a href="Surse.html">Surse</a></li></b>
+</ul>
+<a class="button" ></a>
+
+<h2>Siruri de caractere</h2>
+<h4> Functii </h4>
+<b>
+<p>Functiile pentru operatii cu siruri se gasesc in header-ul < string.h >.</p>
+
+<p> &#8883; Functia strlen
+int strlen(nume_sir); – returneaza lungimea efectiva a unui sir (fara a numara terminatorul de
+sir).
+
+<u>Exemplu:</u>
+char a[50]=”ora de informatica”; strlen(a) = 18</p>
+
+<p> &#8883; Functia strcpy
+strcpy(sir_destinatie,sir_sursa); – copiaza sirul sir_ sursa in sir_destinatie (se
+simuleaza atribuirea a=b).
+<u>ATENTIE!! Nu este permisa atribuirea intre doua siruri de caractere folosind operatorul =.
+Atribuirea se face folosind functia strcpy.</u>
+
+<u>Exemplu:</u>
+char a[50]=”primul sir”,b[40]=”al doilea sir”;
+a=b; //eroare
+strcpy(a,b); &rArr; a = ”al doilea sir”; b=”al doilea sir”;</p>
+
+<p> &#8883; Functia strcat
+strcat(dest,sursa); – adauga sirului dest sirul sursa. Sirul sursa ramane nemodificat.
+Operatia se numeste concatenare si nu este comutativa.
+
+<u>Exemplu:</u>
+Exemplu:
+char *a=”vine ”,*b=”vacanta?”;
+strcat(a,b); &rArr; a = ”vine vacanta?”;</p>
+
+<p> &#8883; Functia strncat
+strncat(dest,sursa,nr); – adauga dest primele nr caractere
+din sirul sursa. Sirul sursa ramane nemodificat.
+
+<u>Exemplu:</u>
+char *a=”vine ”,*b=”vacanta?”;
+strncat(a,b,4); &rArr; a = ”vine vaca”;</p>
+
+<p> &#8883; Functia strchr
+strchr(sir,c); – are rolul de a cauta caracterul c in sirul sir. Cautarea se face de la stanga la
+dreapta, iar functia intoarce adresa subsirului care incepe cu prima aparitie a caracterului c. Daca nu
+este gasit caracterul, functia returneaza 0. Diferenta dintre adresa sirului initial si cea a subsirului
+returnat reprezinta chiar pozitia caracterului cautat in sirul dat.
+
+<u>Exemplu:</u>
+char *a=”acesta este un sir”,b=’t’,c=’x’,d;
+cout<<strchr(a,b); &rArr; se tipareste ”ta este un sir”;
+cout<<strchr(a,c); &rArr; nu se tipareste nimic (se tipareste 0 daca se face o conversie
+la int a luistrchr(a,c) ;
+d= strchr(a,b);
+cout<<”Caracterul apare prima data la pozitia ”<<d-a;
+
+<u>Ex: Sa se afiseze toate pozitiile unui caracter intr-un sir</u>
+#include <iostream.h>
+#include <string.h>
+void main()
+{char a[100],*p,c;
+cin.get(a,100);
+cin>>c;
+p=strchr(a,c);
+while (p)
+{cout<<"Pozitia "<<p-a<<endl;
+p++;
+p=strchr(p,c);}}</p>
+
+<p> &#8883; Functia strspn cu forma generala
+int strspn(sir1,sir2); – are rolul de a returna numarul de caractere ale sirului sir1 (caractere
+consecutive care incep obligatoriu cu primul caracter) care se gasesc in sirul sir2.
+
+<u>Exemplu:</u>
+strspn(“AB2def”,”1B3AQW”); &rArr; returneaza 2, pentru ca primele 2 caractere ‘A’ si ‘B’
+
+din sir1 se gasesc in sir2.
+
+strspn(“FAB2def”,”16A32BF”); &rArr; returneaza 0, deoarece caracterul ‘F’ cu care
+incepe sir1 nu se gaseste in sir2.</p>
+
+<p> &#8883; Functia strcspn cu forma generala
+int strspn(sir1,sir2); – are rolul de a returna numarul de caractere ale sirului sir1 (caractere
+consecutive care incep obligatoriu cu primul caracter) care nu se gasesc in sirul sir2.
+
+<u>Exemplu:</u>
+strspn(“AB2def”,”123”); &rArr; returneaza 2, pentru ca primele 2 caractere din sir1 nu se gasesc
+in sir2.
+
+//Se citeste un sir de caractere care nu contine caractere albe. Sa se decida
+daca sirul este alcatuit exclusiv din caractere numerice.
+
+#include <iostream.h>
+#include <conio.h>
+#include <string.h>
+void main()
+{char text[100],cifre[]="0123456789";
+clrscr();
+cout<<"Dati sirul:";cin.get(text,100);
+if (strcspn(cifre,text)==strlen(text))
+cout<<"exclusiv numeric";
+else cout<<”nenumeric”;
+getch();}</p>
+
+<p> &#8883; Functia strlwr cu forma generala
+strlwr(sir); – are rolul de a converti toate literele mari din sir in litere mici. Restul caracterelor
+raman neschimbate.</p>
+
+<p> &#8883; Functia strupr cu forma generala
+strupr(sir); – are rolul de a converti toate literele mici din sir in litere mari. Restul caracterelor
+raman neschimbate.</p>
+
+<p> &#8883; Functia strbrk cu forma generala
+strpbrk(sir1,sir2); – actioneaza in felul urmator:
+o Cauta primul caracter al sirului sir1 in sir2. Daca este gasit, returneaza adresa sa din cadrul
+sirului sir1 si executia se termina. Altfel, se trece la pasul urmator.
+o Cauta al doilea caracter al sirului sir1 in sir2. Daca este gasit, returneaza adresa sa din cadrul
+sirului sir1 si executia se termina. Altfel, se trece la pasul urmator.
+o ...
+o Daca nici un caracter al sirului sir1 nu apartine sirului sir2, functia returneaza adresa nula.</p>
+
+<p> &#8883; Functia atof cu forma generala
+double atof(sir); – converteste un sir catre tipul double. Daca aceasta conversie esueaza (se
+intalneste un caracter nenumeric), valoarea intoarsa este 0. Aceasta functie (ca si cele similare)
+necesita includerea librariei stdlib.h.</p>
+
+<p> &#8883; Functia _atold cu forma generala
+long double _atold(sir); – converteste un sir catre tipul long double. Daca aceasta conversie
+esueaza, valoarea intoarsa este 0.</p>
+
+<p> &#8883; Functia atoi cu forma generala
+int atoi(sir); – converteste un sir catre tipul int. Daca aceasta conversie esueaza (se intalneste un
+caracter nenumeric), valoarea intoarsa este 0.</p>
+
+<p> &#8883; Functia atol cu forma generala
+long atol(sir); – converteste un sir catre tipul long. Daca aceasta conversie esueaza (se intalneste
+un caracter nenumeric), valoarea intoarsa este 0.</p>
+
+<p> &#8883; Functia itoa cu forma generala
+itoa(int valoare,sir,int baza); – converteste o valoare de tip int in sir, care este memorat in
+variabila sir. Baza retine baza de numeratie catre care sa se faca conversia. In cazul bazei 10, sirul
+retine si eventualul semn -.</p>
+
+<p> &#8883; Functia ltoa cu forma generala
+ltoa(long valoare,sir,int baza); – converteste o valoare de tip long int in sir, care este
+memorat in variabila sir.</p>
+
+<p> &#8883; Functia ultoa cu forma generala
+ultoa(unsigned long valoare,sir,int baza); – converteste o valoare de tip unsigned long in
+sir, care este memorat in variabila sir.</p>
+
+</b>
+
+
+
+</body>
+</html>
+

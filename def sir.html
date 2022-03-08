@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 3px solid #555;
+	
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    text-decoration: none;
+	line-height: 7;
+    text-align: center;
+    border-bottom: 3px solid #555;
+	
+}
+
+li a.acasa:hover {li {background: lightblue url("giphy 2.gif") no-repeat center;}
+}
+
+
+li a.blue:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy 2.gif") no-repeat center;
+}
+li a.red:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy.gif") no-repeat center;
+
+}
+
+
+.yellow {color: #FFFF99;}
+.red {color:	#A52A2A;}
+.blue 	{color: #00CED1;}
+.purple {color: #DDA0DD;}
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 67px 278.5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 71%;
+}
+
+h2{ text-align:center;
+	margin-top: -100px;
+	color: white;
+	margin-left: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 10px;
+	}
+h4 { text-align: center;
+	 margin-top: 50px;
+	 color:white;
+	 margin-left: 200px;
+	}
+	body{
+  background: #000;
+} 
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .1;}
+}
+p{color: lime;
+  font-family: "Courier";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 64em;
+  animation: type 2s steps(60, end); 
+  margin-left:300px;
+  white-space: pre;
+  color: white;
+  font-weight: 300%;
+  line-height: 1;
+  margin-top: 100px;
+  margin-right: -150px;
+  white-space: pre;
+}
+
+p:nth-child(1){
+  animation: type2 1s steps(60, end);
+} 
+p:nth-child(2){
+  animation: type2 3s steps(60, end);
+}
+p:nth-child(3){
+  animation: type2 5s steps(60, end);
+}
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+}
+
+
+
+body {
+	background: black;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	}
+
+</style>
+</head>
+<body>
+
+<ul>
+<b>
+  <li><a  class="acasa" href="pagina intrare.html" >Acasa</a></li>
+  <li><a  href="def sir.html">Definitie</a></li>
+  <li><a href="citire afisare.html">Citire si afisare</a></li>
+  <li><a href="functii.html">Functii</a></li>
+  <li><a href="Surse.html">Surse</a></li></b>
+</ul>
+<a class="button" ></a>
+
+<h2>Siruri de caractere</h2>
+<h4> Definitie </h4>
+<b>
+<p>O constanta de tip sir de caractere de declara intre doua caractere “. In memoria interna, o constanta
+de acest tip este retinuta sub forma unui vector de caractere. Fiecare componenta a sirului (incepand cu 
+cea de indice 0) retine codul ASCII al caracterului pe care il memoreaza. Conventia este ca ultimul octet 
+sa retina 0 (codul caracterului nul). Caracterul nul este memorat automat. Trebuie rezervate 
+lungimea_sirului+1 caractere char (+1 pentru caracterul nul).
+Limbajul C/C++ permite initializarea unui tablou de caractere printr-o constanta sir, care include automat
+caracterul null.</p>
+<p><u>Exemplu :</u>
+char vect[11]=”calculator”;
+char vect[]=”calculator”; (compilatorul face calculul numarului de octeti necesari)
+char vect[100]=”calculator”; (s-au rezervat mai multi octeti decat era necesar)
+Sirurile de caractere sunt de fapt tablouri de caractere, care au ca ultim element un terminator de sir, 
+caracterul null.</p>
+<p><u>Exemplu :</u>
+char tc[5] = {’a’, ’b’, ’c’, ’d’, ’e’}; // tablou de caractere
+char sc[5] = {’a’, ’b’, ’c’, ’d’, ’\0’}; // sir de caractere cu elementele abcd
+Ultima initializare este echivalenta cu:
+char sc[5] = ”abcd”; //sau char sc[] = ”abcd”;
+char sc1[5] = ”abcd”;
+char s[10];
+cout << sc << endln; //afiseaza abcd
+cout << tc << endl; //eroare: tabloul de caractere nu contine terminatorul de sir, deci nu poate fi afisat ca
+sir
+cout << s << endl; // eroare: tablou neinitializat
+cout << sc1[0]; // afiseaza primul caracter din sirul sc1
+cout << sc1[2]; // afiseaza al treilea element din sirul sc1
+sc1[1]=’K’; // elementului din sir de indice 1 i se atribuie valoarea ‘K’;</p>
+</b>
+
+
+
+</body>
+</html>
+

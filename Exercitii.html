@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 3px solid #555;
+	
+}
+
+li a.red, a.blue, a.acasa {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    text-decoration: none;
+	line-height: 7;
+    text-align: center;
+    border-bottom: 3px solid #555;
+	
+}
+
+li a.acasa:hover {li {background: lightblue url("giphy 2.gif") no-repeat center;}
+}
+
+
+li a.blue:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy 2.gif") no-repeat center;
+}
+li a.red:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy.gif") no-repeat center;
+
+}
+
+
+.yellow {color: #FFFF99;}
+.red {color:	#A52A2A;}
+.blue 	{color: #00CED1;}
+.purple {color: #DDA0DD;}
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 67px 278.5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+h2{ text-align:center;
+	margin-top: -100px;
+	color: white;
+	margin-left: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 10px;
+	}
+	body{
+  background: #000;
+} 
+
+p{
+  font-family: "Courier";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50em; 
+  margin-left:350px;
+  white-space: pre;
+  color: white;
+  font-weight: 300%;
+  padding-left: 10px;
+  margin-top:10px;
+  margin-right: -170px;
+}
+
+body {
+	background:lightblue url("765224-amazing-technology-background-images-1920x1080-for-mobile-hd.jpg") no-repeat fixed center;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	}
+
+</style>
+</head>
+<body>
+
+<ul>
+<b>
+  <li><a  class="acasa" href="pagina intrare.html" >Acasa</a></li>
+  <li><a class="red"   href="Teorie.html">Notiuni introductive</a></li>
+  <li><a class="blue"  	href="Probleme.html">Probleme -  BAC</a></li>
+  <li><a class="blue"  	href="Exercitii.html">Exercitii - BAC</a></li>
+  <li><a class="red"  href="Surse.html">Surse</a></li></b>
+</ul>
+<a class="button" ></a>
+
+<h2>Siruri de caractere</h2>
+
+<<div class="container">
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" id="menu1" type="button" data-toggle="dropdown" style="margin-top:185px; margin-left: 150px; width: 90%;" >Exercitii
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" style="width: 90%; margin-left: 150px;">
+      <li role="presentation"><a role="menuitem" tabindex="-2" href="ex1 bac.html" style="text-align: center;">Exercitiul 1</a></li>
+      <li role="presentation" class="divider"></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="ex2 bac.html" style="text-align: center;">Exercitiul 2</a></li>
+      <li role="presentation" class="divider"></li>
+	  <li role="presentation"><a role="menuitem" tabindex="-1" href="ex3 bac.html" style="text-align: center;">Exercitiul 3</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="ex4 bac.html" style="text-align: center;">Exercitiul 4</a></li>
+	  <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="ex5 bac.html" style="text-align: center;">Exercitiul 5</a></li>	  
+    </ul>
+  </div><br>
+</div>
+
+<script>
+$(document).ready(function(){
+    $(".dropdown-toggle").dropdown();
+});
+</script>
+</body>
+</html>
+

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 13%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border: 3px solid #555;
+	
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    text-decoration: none;
+	line-height: 7;
+    text-align: center;
+    border-bottom: 3px solid #555;
+	
+}
+
+li a.acasa:hover {li {background: lightblue url("giphy 2.gif") no-repeat center;}
+}
+
+
+li a.blue:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy 2.gif") no-repeat center;
+}
+li a.red:hover {
+    background-color: #555;
+    color: white;
+	background: lightblue url("giphy.gif") no-repeat center;
+
+}
+
+
+.yellow {color: #FFFF99;}
+.red {color:	#A52A2A;}
+.blue 	{color: #00CED1;}
+.purple {color: #DDA0DD;}
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 67px 278.5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 71%;
+}
+
+h2{ text-align:center;
+	margin-top: -100px;
+	color: white;
+	margin-left: 200px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-size: 10px;
+	}
+	body{
+  background: #000;
+} 
+
+p{
+  font-family: "Courier";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50em; 
+  margin-left:350px;
+  white-space: pre;
+  color: white;
+  font-weight: 300%;
+  padding-left: 10px;
+  margin-top:10px;
+  margin-right: -170px;
+}
+
+.css-typing p {
+  
+  font-family: "Courier";
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50em; 
+  margin-left:250px;
+  white-space: pre;
+  color: white;
+  font-weight: 300%;
+  padding-left: 10px;
+  margin-right: -170px;
+}
+.css-typing p:nth-child(1) {
+  width: 57em;
+  -webkit-animation: type 3s steps(250, end);
+  animation: type 3s steps(250, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 30em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(400, end);
+  animation: type2 2s steps(400, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+.css-typing p:nth-child(3) {
+  width: 70em;
+  opacity: 0;
+  -webkit-animation: type2 0.01s steps(400, end);
+  animation: type2 0.01s steps(400, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.css-typing p:nth-child(4) {
+  width: 70em;
+  opacity: 0;
+  -webkit-animation: type3 3s steps(150, end), blink .5s step-end infinite alternate;
+  animation: type3 3s steps(150 end), blink .1s step-end infinite alternate;
+  -webkit-animation-delay: 7;
+  animation-delay: 7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em ;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em ;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em ;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em ;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+body {
+	background-color: black;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	}
+.css-input {
+     padding: 16px;
+     font-size: 16px;
+     border-width: 1px;
+     border-color: #CCCCCC;
+     background-color: black;
+     color: white;
+     border-style: solid;
+     border-radius: 0px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: undefined 0px 0px 5px px rgba(66,66,66,.75);
+     font-family: "Courier";
+	 margin-top: 5px;
+	 margin-left: 270px;
+}
+ .css-input:focus {
+     outline:none;
+}
+.b2{
+	color: orange;
+	padding: 15px;
+	align: center;
+	border-color: orange;
+	background-color: black;
+	margin-top: -10px;
+	}
+</style>
+</head>
+<body>
+
+<ul>
+<b>
+  <li><a  class="acasa" href="pagina intrare.html" >Acasa</a></li>
+  <li><a class="red"   href="Teorie.html">Notiuni introductive</a></li>
+  <li><a class="blue"  	href="Probleme.html">Probleme -  BAC</a></li>
+  <li><a class="blue"  	href="Exercitii.html">Exercitii - BAC</a></li>
+  <li><a class="red"  href="Surse.html">Surse</a></li></b>
+</ul>
+<a class="button" ></a>
+
+<h2>Siruri de caractere</h2>
+<h4> Exercitii BAC </h4>
+<div class="css-typing">
+<p >Ce se afişează în urma executării secvenţei deprogram alăturate, ştiind că variabilele a şi b</p>
+<p>pot memora câte un şir de cel mult 12 caractere?</p>
+</b>
+<div style="background: #202020; font-size: 15px; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em; width: 200px; margin-left: 270px;"><pre style="margin: 0; line-height: 130%"><span style="color: #6ab825; font-weight: bold">strcpy</span><span style="color: #d0d0d0">(</span><span style="color: #6ab825; font-weight: bold">a</span><span style="color: #d0d0d0">,</span><span style="color: #ed9d13">&quot;informatica&quot;</span><span style="color: #d0d0d0">);</span>
+<span style="color: #6ab825; font-weight: bold">strcpy</span><span style="color: #d0d0d0">(</span><span style="color: #6ab825; font-weight: bold">b</span><span style="color: #d0d0d0">,</span><span style="color: #6ab825; font-weight: bold">a</span><span style="color: #d0d0d0">);</span>
+<span style="color: #6ab825; font-weight: bold">cout</span><span style="color: #d0d0d0">&lt;&lt;</span><span style="color: #6ab825; font-weight: bold">strlen</span><span style="color: #d0d0d0">(</span><span style="color: #6ab825; font-weight: bold">b</span><span style="color: #d0d0d0">);</span>
+</pre></div>
+<p> Introduceti raspunsul: </p>
+<input type="number" id="test" class="css-input" >
+<input class="b2" type="button" value="click" onclick="z()">
+<span id="err" ></span>
+<script>
+function z()
+{
+var a=document.getElementById("test");
+if((a.value==11))
+{
+document.getElementById('err').style.color = "white";
+document.getElementById('err').innerHTML= "Raspuns corect";
+}
+else 
+{
+document.getElementById('err').style.color = "white";
+document.getElementById('err').innerHTML= "Raspuns gresit";
+
+}
+
+}
+</script>
+
+</body>
+</html>
+
